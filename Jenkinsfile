@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'nodejs-20.11.0' // Name of the Node.js installation in Jenkins
+        nodejs 'sonarnode' // Name of the Node.js installation in Jenkins
     }
 
     environment {
